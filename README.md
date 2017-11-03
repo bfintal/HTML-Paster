@@ -25,6 +25,11 @@ paster.start()
   
 Copy some content from another site, then visit your page and paste it in your element. You'll see sanitized pasted HTML in the console.
 
+# Libraries
+
+* HTMLPaster
+* HTMLSanitizer
+
 ## TODO
 - [x] initial commit
 - [ ] jest tests

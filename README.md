@@ -5,13 +5,13 @@ Compatibility: IE11, Edge, Chrome, Firefox, Safari and Opera
 
 # Usage
 
-**index.html**
+**Your HTML**
 
 ```
 <div id="foo" contenteditable="true">Bar</div>
 ```
   
-**js**
+**Javascript**
 
 ```
 const foo = document.querySelector('#foo')

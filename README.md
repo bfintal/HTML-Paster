@@ -14,6 +14,8 @@ Compatibility: IE11, Edge, Chrome, Firefox, Safari and Opera
 **Javascript**
 
 ```
+import HTMLPaster from 'HTMLPaster'
+
 const foo = document.querySelector('#foo')
 const paster = new HTMLPaster( foo, {
   pasteCallback: (html) => { console.log('This was pasted:', html) }
